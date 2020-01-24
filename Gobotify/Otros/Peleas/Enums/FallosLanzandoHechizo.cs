@@ -1,0 +1,33 @@
+﻿using System;
+
+namespace Bot_Dofus_1._29._1.Otros.Peleas.Enums
+{
+	// Token: 0x0200003C RID: 60
+	public enum FallosLanzandoHechizo
+	{
+		// Token: 0x040000BA RID: 186
+		NINGUNO,
+		// Token: 0x040000BB RID: 187
+		DEMASIADOS_LANZAMIENTOS,
+		// Token: 0x040000BC RID: 188
+		DEMASIADOS_LANZAMIENTOS_POR_OBJETIVO,
+		// Token: 0x040000BD RID: 189
+		COOLDOWN,
+		// Token: 0x040000BE RID: 190
+		PUNTOS_ACCION,
+		// Token: 0x040000BF RID: 191
+		RANGO_MAXIMO,
+		// Token: 0x040000C0 RID: 192
+		RANGO_MINIMO,
+		// Token: 0x040000C1 RID: 193
+		NO_ESTA_EN_LINEA,
+		// Token: 0x040000C2 RID: 194
+		NECESITA_CELDA_LIBRE,
+		// Token: 0x040000C3 RID: 195
+		NO_ESTA_EN_RANGO,
+		// Token: 0x040000C4 RID: 196
+		DEMASIADAS_INVOCACIONES,
+		// Token: 0x040000C5 RID: 197
+		DESONOCIDO
+	}
+}
